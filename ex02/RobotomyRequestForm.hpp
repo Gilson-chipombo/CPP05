@@ -1,0 +1,3 @@
+class RobotomyRequestForm : public AForm {
+
+};

@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Form.hpp                                           :+:      :+:    :+:   */
+/*   AForm.hpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gbravo-f <gbravo-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/07 18:30:49 by gbravo-f          #+#    #+#             */
-/*   Updated: 2025/06/07 18:30:50 by gbravo-f         ###   ########.fr       */
+/*   Created: 2025/06/07 18:31:17 by gbravo-f          #+#    #+#             */
+/*   Updated: 2025/06/07 18:36:29 by gbravo-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ class Form{
         class GradeTooLowException : public std::exception{
             const char * what() const throw();
         };
-        void beSigned(const Bureaucrat& bureaucrat);
+        void beSigned(const Bureaucrat& bureaucrat) = 0;
 };
 std::ostream& operator<<(std::ostream& os, const Form& form);
 

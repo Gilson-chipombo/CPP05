@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: gbravo-f <gbravo-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/07 18:31:01 by gbravo-f          #+#    #+#             */
-/*   Updated: 2025/06/10 15:23:34 by gbravo-f         ###   ########.fr       */
+/*   Created: 2025/06/07 18:31:07 by gbravo-f          #+#    #+#             */
+/*   Updated: 2025/06/07 18:31:08 by gbravo-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,8 +80,3 @@ std::ostream& operator<<(std::ostream& os, const Bureaucrat& b) {
     os << b.getName() << ", bureaucrat grade " << b.getGrade();
     return os;  // return the output stream
 }
-
-
-#mat-input-5
-
-document.querySelector("#mat-input-5")
